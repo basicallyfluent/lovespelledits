@@ -1,0 +1,49 @@
+:root{
+    color-scheme: light;
+    --ground:#FFF;
+    --paper:#FFF7F5;
+    --crimson:#4d0011;
+    --cherry:#8C0F22;
+    --pink:#F9B9BC;
+    --pink-soft:#FEDCDD;
+    --ink:#1E1012;
+    --ink-soft:#5A3B3E;
+    --display:"Galada","Snell Roundhand",cursive;
+    --chunk:"Fredoka","Trebuchet MS",sans-serif;
+    --body:"EB Garamond","Iowan Old Style",Georgia,serif;
+    --wrap:1080px;
+  }
+
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--crimson);color:var(--paper);font-family:var(--body);font-size:19px;line-height:1.62;-webkit-font-smoothing:antialiased}
+  img{max-width:100%}
+  a{color:inherit}
+  h1,h2,h3,h4{margin:0;text-wrap:balance}
+  p{margin:0}
+  .wrap{width:min(var(--wrap),92vw);margin-inline:auto}
+  .small-highlight-text{font-family:var(--chunk);font-weight:600;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--crimson)}
+  .script{font-family:var(--display);font-weight:700;line-height:.92;color:var(--crimson)}
+  .btn{display:inline-block;font-family:var(--chunk);font-weight:600;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;
+    background:var(--crimson);color:var(--pink-soft);padding:.95em 1.9em;border-radius:999px;border:2px solid var(--paper);transition:background .18s,color .18s,transform .18s}
+ 
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main > div {
+        margin: auto;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    #icons {
+        padding-top: 10px;
+    }
+
+    svg:nth-child(1) {
+        margin-right: 25px;
+    }
